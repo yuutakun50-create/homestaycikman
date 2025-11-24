@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CIKMAN HOMESTAY | Scientex Tasek Gelugor, Penang</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Font: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <style>
+    body {
+      font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="bg-slate-100 text-slate-800">
+
+  <!-- NAVBAR -->
+  <header class="sticky top-0 z-30 bg-white/80 backdrop-blur shadow-sm">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <div class="h-9 w-9 rounded-full bg-emerald-500 flex items-center justify-center text-white font-bold text-lg shadow">
+          C
+        </div>
+        <div>
+          <div class="font-semibold tracking-tight">CIKMAN HOMESTAY</div>
+          <div class="text-xs text-slate-500">Scientex Tasek Gelugor, Penang</div>
+        </div>
+      </div>
+
+      <nav class="hidden md:flex items-center gap-6 text-sm font-medium text-slate-600">
+        <a href="#utama" class="hover:text-emerald-600">Utama</a>
+        <a href="#galeri" class="hover:text-emerald-600">Galeri</a>
+        <a href="#kemudahan" class="hover:text-emerald-600">Kemudahan</a>
+        <a href="#lokasi" class="hover:text-emerald-600">Lokasi</a>
+        <a href="#tempahan" class="hover:text-emerald-600">Tempahan</a>
+      </nav>
+
+      <a href="#tempahan" class="hidden md:inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-500 text-white text-sm font-semibold shadow hover:bg-emerald-600 transition">
+        Tempah Sekarang
+      </a>
+
+      <!-- Mobile menu button (simple scroll to tempahan) -->
+      <a href="#tempahan" class="md:hidden inline-flex items-center px-3 py-2 rounded-full bg-emerald-500 text-white text-xs font-semibold shadow">
+        Tempah
+      </a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="utama" class="relative">
+    <div class="max-w-6xl mx-auto px-4 py-8 md:py-14 grid md:grid-cols-2 gap-8 items-center">
+      <div class="space-y-5">
+        <span class="inline-flex items-center px-3 py-1 rounded-full bg-emerald-50 text-emerald-700 text-xs font-semibold">
+          Homestay Mesra Keluarga • RM150/malam
+        </span>
+        <h1 class="text-3xl md:text-4xl font-bold tracking-tight text-slate-900">
+          CIKMAN HOMESTAY<br />
+          <span class="text-emerald-600">Scientex Tasek Gelugor, Penang</span>
+        </h1>
+        <p class="text-sm md:text-base text-slate-600 leading-relaxed">
+          Homestay selesa dan bersih, sesuai untuk keluarga atau rombongan.
+          Berhampiran kemudahan utama dan akses mudah ke kawasan sekitar Tasek Gelugor & Seberang Perai.
+        </p>
+        <ul class="text-sm text-slate-600 space-y-1">
+          <li>✔️ 3 bilik tidur • 2 bilik air</li>
+          <li>✔️ Aircond, WiFi laju & TV</li>
+          <li>✔️ Dapur lengkap & parking percuma</li>
+        </ul>
+
+        <div class="flex flex-wrap gap-3 pt-2">
+          <a href="#tempahan" class="inline-flex items-center justify-center px-5 py-2.5 rounded-full bg-emerald-500 text-white text-sm font-semibold shadow hover:bg-emerald-600 transition">
+            Semak Tarikh & Tempah
+          </a>
+          <a href="#galeri" class="inline-flex items-center justify-center px-5 py-2.5 rounded-full border border-emerald-200 text-emerald-700 text-sm font-semibold hover:bg-emerald-50 transition">
+            Lihat Galeri
+          </a>
+        </div>
+
+        <div class="text-xs text-slate-500">
+          Harga dari <span class="font-semibold text-emerald-600">RM150/malam</span> • Diskaun untuk penginapan lebih panjang (boleh runding).
+        </div>
+      </div>
+
+      <div class="relative">
+        <!-- Hero image – guna gambar ruang tamu sebenar -->
+        <div class="aspect-[4/3] rounded-3xl overflow-hidden shadow-xl border border-slate-200 bg-slate-200">
+          <img
+            src="https://scontent.fpen1-1.fna.fbcdn.net/v/t39.30808-6/581940213_1128455532704983_1234738760488508079_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=NkAjIvLQxiUQ7kNvwGsc_VE&_nc_oc=AdkPPysZMI98dHs7R2piE_MGjIcRcqHYmImg8-Xrjil5b8HNfYtd-5afXEV6_79XaAKp5tqChTeD2t1BEZmuJKoq&_nc_zt=23&_nc_ht=scontent.fpen1-1.fna&_nc_gid=7rHj7apai1nAi2scuUsEIg&oh=00_AfgiDxVBIvs5gOdxn1PiAC8JCFkZ8wj8jmDKsKsSqrToyg&oe=6929A93B"
+            alt="Ruang tamu CIKMAN HOMESTAY"
+            class="w-full h-full object-cover"
+          />
+        </div>
+        <div class="absolute -bottom-4 -left-4 bg-white rounded-2xl shadow-lg px-4 py-3 text-xs font-medium text-slate-700 flex items-center gap-3">
+          <span class="inline-flex h-8 w-8 rounded-full bg-emerald-500 text-white items-center justify-center text-lg">🏡</span>
+          <div>
+            <div>Tempahan terus dengan pemilik</div>
+            <div class="text-[0.65rem] text-slate-500">Pengesahan segera selepas bayaran</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERI -->
+  <section id="galeri" class="py-10 md:py-14">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="flex items-center justify-between mb-6">
+        <div>
+          <h2 class="text-xl md:text-2xl font-semibold text-slate-900">Galeri CIKMAN HOMESTAY</h2>
+          <p class="text-xs md:text-sm text-slate-500">Beberapa sudut utama dalam homestay.</p>
+        </div>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-4">
+        <!-- Ruang tamu -->
+        <button
+          class="group relative overflow-hidden rounded-2xl shadow-sm bg-slate-200"
+          data-large-src="https://scontent.fpen1-1.fna.fbcdn.net/v/t39.30808-6/581940213_1128455532704983_1234738760488508079_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=NkAjIvLQxiUQ7kNvwGsc_VE&_nc_oc=AdkPPysZMI98dHs7R2piE_MGjIcRcqHYmImg8-Xrjil5b8HNfYtd-5afXEV6_79XaAKp5tqChTeD2t1BEZmuJKoq&_nc_zt=23&_nc_ht=scontent.fpen1-1.fna&_nc_gid=7rHj7apai1nAi2scuUsEIg&oh=00_AfgiDxVBIvs5gOdxn1PiAC8JCFkZ8wj8jmDKsKsSqrToyg&oe=6929A93B"
+        >
+          <img
+            src="https://scontent.fpen1-1.fna.fbcdn.net/v/t39.30808-6/581940213_1128455532704983_1234738760488508079_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=NkAjIvLQxiUQ7kNvwGsc_VE&_nc_oc=AdkPPysZMI98dHs7R2piE_MGjIcRcqHYmImg8-Xrjil5b8HNfYtd-5afXEV6_79XaAKp5tqChTeD2t1BEZmuJKoq&_nc_zt=23&_nc_ht=scontent.fpen1-1.fna&_nc_gid=7rHj7apai1nAi2scuUsEIg&oh=00_AfgiDxVBIvs5gOdxn1PiAC8JCFkZ8wj8jmDKsKsSqrToyg&oe=6929A93B"
+            alt="Ruang tamu CIKMAN HOMESTAY"
+            class="w-full h-48 md:h-56 object-cover group-hover:scale-105 transition"
+          />
+          <div class="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition flex items-end">
+            <span class="text-white text-xs font-medium p-3">Ruang Tamu</span>
+          </div>
+        </button>
+
+        <!-- Bilik tidur utama -->
+        <button
+          class="group relative overflow-hidden rounded-2xl shadow-sm bg-slate-200"
+          data-large-src="https://i.imgur.com/ow3Fxtd.jpg"
+        >
+          <img
+            src="https://i.imgur.com/ow3Fxtd.jpg"
+            alt="Bilik tidur utama"
+            class="w-full h-48 md:h-56 object-cover group-hover:scale-105 transition"
+          />
+          <div class="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition flex items-end">
+            <span class="text-white text-xs font-medium p-3">Bilik Tidur Utama</span>
+          </div>
+        </button>
+
+        <!-- Bilik tidur kedua -->
+        <button
+          class="group relative overflow-hidden rounded-2xl shadow-sm bg-slate-200"
+          data-large-src="https://i.imgur.com/xUSv9GJ.jpg"
+        >
+          <img
+            src="https://i.imgur.com/xUSv9GJ.jpg"
+            alt="Bilik tidur kedua"
+            class="w-full h-48 md:h-56 object-cover group-hover:scale-105 transition"
+          />
+          <div class="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition flex items-end">
+            <span class="text-white text-xs font-medium p-3">Bilik Tidur Kedua</span>
+          </div>
+        </button>
+
+        <!-- Bilik tidur ketiga -->
+        <button
+          class="group relative overflow-hidden rounded-2xl shadow-sm bg-slate-200"
+          data-large-src="https://i.imgur.com/1U8gaFC.jpg"
+        >
+          <img
+            src="https://i.imgur.com/1U8gaFC.jpg"
+            alt="Bilik tidur ketiga"
+            class="w-full h-48 md:h-56 object-cover group-hover:scale-105 transition"
+          />
+          <div class="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition flex items-end">
+            <span class="text-white text-xs font-medium p-3">Bilik Tidur Ketiga</span>
+          </div>
+        </button>
+
+        <!-- Dapur -->
+        <button
+          class="group relative overflow-hidden rounded-2xl shadow-sm bg-slate-200"
+          data-large-src="https://i.imgur.com/7pztePy.jpg"
+        >
+          <img
+            src="https://i.imgur.com/7pztePy.jpg"
+            alt="Dapur CIKMAN HOMESTAY"
+            class="w-full h-48 md:h-56 object-cover group-hover:scale-105 transition"
+          />
+          <div class="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition flex items-end">
+            <span class="text-white text-xs font-medium p-3">Dapur</span>
+          </div>
+        </button>
+
+        <!-- Bilik air -->
+        <button
+          class="group relative overflow-hidden rounded-2xl shadow-sm bg-slate-200"
+          data-large-src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/429005248.jpg?k=3dd96216ab2b98d37285d8076ad6c49fa50ed349e6e103dd835893277144c2bd&o="
+        >
+          <img
+            src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/429005248.jpg?k=3dd96216ab2b98d37285d8076ad6c49fa50ed349e6e103dd835893277144c2bd&o="
+            alt="Bilik air CIKMAN HOMESTAY"
+            class="w-full h-48 md:h-56 object-cover group-hover:scale-105 transition"
+          />
+          <div class="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition flex items-end">
+            <span class="text-white text-xs font-medium p-3">Bilik Air</span>
+          </div>
+        </button>
+
+        <!-- Luar rumah -->
+        <button
+          class="group relative overflow-hidden rounded-2xl shadow-sm bg-slate-200"
+          data-large-src="https://i.imgur.com/73NYPVw.jpg"
+        >
+          <img
+            src="https://i.imgur.com/73NYPVw.jpg"
+            alt="Luar rumah / parking CIKMAN HOMESTAY"
+            class="w-full h-48 md:h-56 object-cover group-hover:scale-105 transition"
+          />
+          <div class="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition flex items-end">
+            <span class="text-white text-xs font-medium p-3">Luar Rumah / Parking</span>
+          </div>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- MODAL GALERI -->
+  <div id="imageModal" class="fixed inset-0 bg-black/70 flex items-center justify-center z-40 hidden">
+    <div class="relative max-w-3xl w-full px-4">
+      <button id="closeModalBtn" class="absolute -top-10 right-2 text-white text-2xl font-bold">&times;</button>
+      <div class="bg-slate-900 rounded-2xl overflow-hidden shadow-2xl">
+        <img id="modalImage" src="" alt="Gambar besar" class="w-full max-h-[80vh] object-contain bg-black" />
+      </div>
+    </div>
+  </div>
+
+  <!-- KEMUDAHAN -->
+  <section id="kemudahan" class="py-10 md:py-14 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-xl md:text-2xl font-semibold text-slate-900 mb-2">Kemudahan di CIKMAN HOMESTAY</h2>
+      <p class="text-xs md:text-sm text-slate-500 mb-6">Lengkap untuk keselesaan keluarga & tetamu.</p>
+
+      <div class="grid md:grid-cols-3 gap-4 text-sm">
+        <div class="p-4 rounded-2xl bg-emerald-50 border border-emerald-100">
+          <div class="text-xl mb-1">🛏️</div>
+          <div class="font-semibold mb-1">Bilik & Tidur</div>
+          <ul class="text-xs text-slate-600 space-y-1">
+            <li>• 3 bilik tidur, 2 bilik air</li>
+            <li>• Katil selesa & cadar bersih</li>
+            <li>• Aircond di ruang tertentu</li>
+          </ul>
+        </div>
+        <div class="p-4 rounded-2xl bg-sky-50 border border-sky-100">
+          <div class="text-xl mb-1">📺</div>
+          <div class="font-semibold mb-1">Hiburan & Internet</div>
+          <ul class="text-xs text-slate-600 space-y-1">
+            <li>• TV & sokongan YouTube/Netflix</li>
+            <li>• WiFi berkelajuan tinggi</li>
+            <li>• Plug point mencukupi</li>
+          </ul>
+        </div>
+        <div class="p-4 rounded-2xl bg-amber-50 border border-amber-100">
+          <div class="text-xl mb-1">🍳</div>
+          <div class="font-semibold mb-1">Dapur & Lain-lain</div>
+          <ul class="text-xs text-slate-600 space-y-1">
+            <li>• Dapur lengkap (periuk asas, cerek)</li>
+            <li>• Peti ais & sinki</li>
+            <li>• Parking percuma di hadapan rumah</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HARGA & LOKASI -->
+  <section id="lokasi" class="py-10 md:py-14">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-8 items-start">
+      <div class="space-y-4">
+        <h2 class="text-xl md:text-2xl font-semibold text-slate-900">Harga & Info Ringkas</h2>
+        <p class="text-sm text-slate-600">
+          Kadar penginapan di CIKMAN HOMESTAY adalah:
+        </p>
+        <div class="rounded-2xl bg-white border border-emerald-100 px-4 py-4 shadow-sm inline-flex items-baseline gap-3">
+          <div class="text-2xl font-bold text-emerald-600">RM150</div>
+          <div class="text-xs text-slate-500">/ malam<br /><span class="text-[0.65rem]">Kadar boleh berubah mengikut musim / bilangan tetamu.</span></div>
+        </div>
+        <ul class="text-xs text-slate-600 space-y-1">
+          <li>• Check-in & check-out fleksibel (ikut perbincangan dengan pemilik).</li>
+          <li>• Deposit mungkin diperlukan untuk tempahan tertentu.</li>
+          <li>• Harga khas untuk penginapan jangka panjang boleh dirunding.</li>
+        </ul>
+
+        <div class="pt-3">
+          <h3 class="text-sm font-semibold text-slate-800 mb-1">Alamat</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            CIKMAN HOMESTAY<br />
+            SCIENTEX TASEK GELUGOR, PENANG
+          </p>
+        </div>
+      </div>
+
+      <div class="space-y-3">
+        <h2 class="text-sm font-semibold text-slate-900">Lokasi & Akses</h2>
+        <p class="text-xs text-slate-600">
+          Terletak di kawasan perumahan Scientex Tasek Gelugor yang tenang, dengan akses mudah ke kedai, masjid, sekolah dan jalan utama.
+        </p>
+        <div class="rounded-3xl overflow-hidden shadow border border-slate-200 bg-slate-100">
+          <!-- Peta boleh diganti dengan embed maps sebenar -->
+          <iframe
+            title="Peta CIKMAN HOMESTAY"
+            class="w-full h-64 border-0"
+            src="https://www.google.com/maps?q=Scientex+Tasek+Gelugor+Penang&output=embed"
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEMPAHAN -->
+  <section id="tempahan" class="py-10 md:py-14 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="mb-6">
+        <h2 class="text-xl md:text-2xl font-semibold text-slate-900">Tempahan Online</h2>
+        <p class="text-xs md:text-sm text-slate-500">
+          Semak tarikh kosong, isi maklumat & buat bayaran online (demo). Sistem akan auto block tarikh selepas pembayaran berjaya.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-5 gap-6 items-start">
+        <!-- BORANG -->
+        <div class="md:col-span-3 bg-slate-50 border border-slate-200 rounded-3xl p-4 md:p-6 shadow-sm">
+          <form id="bookingForm" class="space-y-3 text-xs md:text-sm">
+            <div id="formAlert" class="hidden mb-2 text-xs rounded-lg px-3 py-2"></div>
+
+            <div class="grid md:grid-cols-2 gap-3">
+              <div>
+                <label class="block text-xs font-medium text-slate-700 mb-1">Tarikh Check-in</label>
+                <input type="date" id="checkIn" class="w-full rounded-xl border-slate-300 text-xs px-3 py-2 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500" />
+              </div>
+              <div>
+                <label class="block text-xs font-medium text-slate-700 mb-1">Tarikh Check-out</label>
+                <input type="date" id="checkOut" class="w-full rounded-xl border-slate-300 text-xs px-3 py-2 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500" />
+              </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-3">
+              <div>
+                <label class="block text-xs font-medium text-slate-700 mb-1">Nama penuh</label>
+                <input type="text" id="fullName" placeholder="Nama seperti dalam IC" class="w-full rounded-xl border-slate-300 text-xs px-3 py-2 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500" />
+              </div>
+              <div>
+                <label class="block text-xs font-medium text-slate-700 mb-1">No. telefon</label>
+                <input type="tel" id="phone" placeholder="Contoh: 0123456789" class="w-full rounded-xl border-slate-300 text-xs px-3 py-2 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500" />
+              </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-3">
+              <div>
+                <label class="block text-xs font-medium text-slate-700 mb-1">Emel</label>
+                <input type="email" id="email" placeholder="Contoh: nama@email.com" class="w-full rounded-xl border-slate-300 text-xs px-3 py-2 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500" />
+              </div>
+              <div>
+                <label class="block text-xs font-medium text-slate-700 mb-1">Bilangan tetamu</label>
+                <input type="number" id="guests" min="1" value="1" class="w-full rounded-xl border-slate-300 text-xs px-3 py-2 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500" />
+              </div>
+            </div>
+
+            <div class="flex items-start gap-2">
+              <input type="checkbox" id="terms" class="mt-1 h-3.5 w-3.5 rounded border-slate-300 text-emerald-600 focus:ring-emerald-500" />
+              <label for="terms" class="text-[0.7rem] text-slate-600">
+                Saya bersetuju dengan terma & syarat tempahan CIKMAN HOMESTAY termasuk polisi pembatalan & deposit (jika ada).
+              </label>
+            </div>
+
+            <div class="flex flex-wrap gap-3 pt-2">
+              <button
+                type="button"
+                id="checkAvailabilityBtn"
+                class="inline-flex items-center justify-center px-4 py-2 rounded-full bg-emerald-500 text-white text-xs font-semibold shadow hover:bg-emerald-600 transition"
+              >
+                Semak Ketersediaan
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!-- RINGKASAN & PEMBAYARAN -->
+        <div class="md:col-span-2 bg-slate-900 text-slate-100 rounded-3xl p-4 md:p-6 shadow-md space-y-4">
+          <div>
+            <h3 class="text-sm md:text-base font-semibold mb-1">Ringkasan Tempahan</h3>
+            <p class="text-[0.7rem] text-slate-400">
+              Selepas semak tarikh, butiran tempahan & jumlah harga akan dipaparkan di sini.
+            </p>
+          </div>
+
+          <div id="summaryBox" class="text-xs space-y-2 border border-slate-700 rounded-2xl p-3 hidden">
+            <!-- Diisi oleh JavaScript -->
+          </div>
+
+          <div class="pt-1">
+            <button
+              type="button"
+              id="payNowBtn"
+              disabled
+              class="w-full inline-flex items-center justify-center px-4 py-2.5 rounded-full bg-slate-700 text-slate-300 text-xs font-semibold shadow-sm disabled:opacity-60 disabled:cursor-not-allowed hover:bg-emerald-500 hover:text-white transition"
+            >
+              Bayar Sekarang (Demo)
+            </button>
+            <p class="mt-2 text-[0.65rem] text-slate-500">
+              Butang ini mensimulasikan pembayaran online. Untuk guna gateway sebenar (FPX / DuitNow / TnG / Stripe), sambungkan fungsi ini kepada API pembayaran.
+            </p>
+          </div>
+
+          <div id="paymentStatus" class="text-[0.7rem]"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-slate-200 bg-slate-50">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex flex-col md:flex-row items-center justify-between gap-2 text-[0.7rem] text-slate-500">
+      <div>© <span id="yearNow"></span> CIKMAN HOMESTAY • Scientex Tasek Gelugor, Penang</div>
+      <div>Tempahan terus dengan pemilik • Harga dari RM150/malam</div>
+    </div>
+  </footer>
+
+  <!-- SCRIPT -->
+  <script>
+    const PRICE_PER_NIGHT = 150;
+    const STORAGE_KEY = 'cikman_bookings';
+
+    let bookings = [];
+    let lastCheckResult = null; // simpan data tempahan yang telah disemak & available
+
+    function loadBookings() {
+      try {
+        const stored = localStorage.getItem(STORAGE_KEY);
+        if (stored) {
+          bookings = JSON.parse(stored);
+        } else {
+          bookings = [];
+        }
+      } catch (e) {
+        bookings = [];
+      }
+    }
+
+    function saveBookings() {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(bookings));
+    }
+
+    function toDateOnly(dateStr) {
+      const d = new Date(dateStr + 'T00:00:00');
+      return d;
+    }
+
+    function getNightsBetween(startStr, endStr) {
+      const start = toDateOnly(startStr);
+      const end = toDateOnly(endStr);
+      const diffMs = end - start;
+      return Math.round(diffMs / (1000 * 60 * 60 * 24));
+    }
+
+    function isRangeOverlap(startA, endA, startB, endB) {
+      return startA < endB && endA > startB; // overlap jika true
+    }
+
+    function isDateRangeAvailable(checkInStr, checkOutStr) {
+      const checkIn = toDateOnly(checkInStr);
+      const checkOut = toDateOnly(checkOutStr);
+
+      for (const b of bookings) {
+        const bIn = toDateOnly(b.checkIn);
+        const bOut = toDateOnly(b.checkOut);
+        if (isRangeOverlap(checkIn, checkOut, bIn, bOut)) {
+          return false;
+        }
+      }
+      return true;
+    }
+
+    function setTodayAsMinDate() {
+      const today = new Date();
+      const yyyy = today.getFullYear();
+      const mm = String(today.getMonth() + 1).padStart(2, '0');
+      const dd = String(today.getDate()).padStart(2, '0');
+      const todayStr = `${yyyy}-${mm}-${dd}`;
+      document.getElementById('checkIn').setAttribute('min', todayStr);
+      document.getElementById('checkOut').setAttribute('min', todayStr);
+    }
+
+    function showFormAlert(message, type = 'error') {
+      const alertBox = document.getElementById('formAlert');
+      alertBox.classList.remove('hidden');
+      alertBox.classList.remove('bg-red-50', 'text-red-700', 'border-red-200', 'bg-emerald-50', 'text-emerald-700', 'border-emerald-200');
+      if (type === 'success') {
+        alertBox.classList.add('bg-emerald-50', 'text-emerald-700', 'border-emerald-200');
+      } else {
+        alertBox.classList.add('bg-red-50', 'text-red-700', 'border-red-200');
+      }
+      alertBox.textContent = message;
+    }
+
+    function clearFormAlert() {
+      const alertBox = document.getElementById('formAlert');
+      alertBox.classList.add('hidden');
+      alertBox.textContent = '';
+    }
+
+    function updateSummaryBox(data) {
+      const box = document.getElementById('summaryBox');
+      if (!data) {
+        box.classList.add('hidden');
+        box.innerHTML = '';
+        return;
+      }
+      const nights = data.nights;
+      const total = data.total;
+      box.classList.remove('hidden');
+      box.innerHTML = `
+        <div class="flex items-center justify-between">
+          <span class="text-slate-300 text-[0.7rem]">CIKMAN HOMESTAY</span>
+          <span class="text-[0.7rem] text-emerald-400 font-semibold">Tarikh tersedia ✔</span>
+        </div>
+        <div class="grid grid-cols-2 gap-2 pt-1">
+          <div>
+            <div class="text-[0.65rem] text-slate-400">Check-in</div>
+            <div class="text-xs font-semibold">${data.checkIn}</div>
+          </div>
+          <div>
+            <div class="text-[0.65rem] text-slate-400">Check-out</div>
+            <div class="text-xs font-semibold">${data.checkOut}</div>
+          </div>
+          <div>
+            <div class="text-[0.65rem] text-slate-400">Malam</div>
+            <div class="text-xs font-semibold">${nights} malam</div>
+          </div>
+          <div>
+            <div class="text-[0.65rem] text-slate-400">Tetamu</div>
+            <div class="text-xs font-semibold">${data.guests} orang</div>
+          </div>
+        </div>
+        <div class="mt-2 border-t border-slate-700 pt-2 flex items-baseline justify-between">
+          <div class="text-[0.7rem] text-slate-400">
+            RM${PRICE_PER_NIGHT} / malam
+          </div>
+          <div class="text-sm font-bold text-emerald-400">
+            Jumlah: RM${total}
+          </div>
+        </div>
+      `;
+    }
+
+    function resetFormAndSummary() {
+      const form = document.getElementById('bookingForm');
+      form.reset();
+      clearFormAlert();
+      updateSummaryBox(null);
+      lastCheckResult = null;
+      const payBtn = document.getElementById('payNowBtn');
+      payBtn.disabled = true;
+      payBtn.textContent = 'Bayar Sekarang (Demo)';
+      document.getElementById('paymentStatus').innerHTML = '';
+      setTodayAsMinDate();
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      loadBookings();
+      setTodayAsMinDate();
+      document.getElementById('yearNow').textContent = new Date().getFullYear();
+
+      const checkBtn = document.getElementById('checkAvailabilityBtn');
+      const payBtn = document.getElementById('payNowBtn');
+
+      checkBtn.addEventListener('click', () => {
+        clearFormAlert();
+        document.getElementById('paymentStatus').innerHTML = '';
+        lastCheckResult = null;
+        updateSummaryBox(null);
+        payBtn.disabled = true;
+        payBtn.textContent = 'Bayar Sekarang (Demo)';
+
+        const checkIn = document.getElementById('checkIn').value;
+        const checkOut = document.getElementById('checkOut').value;
+        const fullName = document.getElementById('fullName').value.trim();
+        const phone = document.getElementById('phone').value.trim();
+        const email = document.getElementById('email').value.trim();
+        const guests = document.getElementById('guests').value;
+        const terms = document.getElementById('terms').checked;
+
+        if (!checkIn || !checkOut || !fullName || !phone || !email || !guests) {
+          showFormAlert('Sila lengkapkan semua maklumat sebelum semak ketersediaan.');
+          return;
+        }
+
+        if (!terms) {
+          showFormAlert('Sila bersetuju dengan terma & syarat sebelum meneruskan.', 'error');
+          return;
+        }
+
+        const nights = getNightsBetween(checkIn, checkOut);
+        if (isNaN(nights) || nights <= 0) {
+          showFormAlert('Tarikh check-out mesti selepas tarikh check-in.', 'error');
+          return;
+        }
+
+        const today = new Date();
+        const todayStr = today.toISOString().slice(0, 10);
+        if (checkIn < todayStr) {
+          showFormAlert('Tarikh check-in tidak boleh sebelum hari ini.', 'error');
+          return;
+        }
+
+        const available = isDateRangeAvailable(checkIn, checkOut);
+        if (!available) {
+          showFormAlert('Maaf, tarikh yang dipilih telah ditempah. Sila pilih tarikh lain.', 'error');
+          return;
+        }
+
+        const total = nights * PRICE_PER_NIGHT;
+        lastCheckResult = {
+          checkIn,
+          checkOut,
+          fullName,
+          phone,
+          email,
+          guests: Number(guests),
+          nights,
+          total
+        };
+
+        showFormAlert('Tarikh tersedia! Sila semak ringkasan & teruskan ke pembayaran.', 'success');
+        updateSummaryBox(lastCheckResult);
+        payBtn.disabled = false;
+      });
+
+      payBtn.addEventListener('click', () => {
+        if (!lastCheckResult) return;
+
+        payBtn.disabled = true;
+        payBtn.textContent = 'Memproses pembayaran...';
+        const paymentStatus = document.getElementById('paymentStatus');
+        paymentStatus.innerHTML = '<div class="text-[0.7rem] text-slate-300">Sila tunggu sebentar, pembayaran sedang diproses (demo)...</div>';
+
+        setTimeout(() => {
+          bookings.push({
+            checkIn: lastCheckResult.checkIn,
+            checkOut: lastCheckResult.checkOut,
+            fullName: lastCheckResult.fullName,
+            phone: lastCheckResult.phone,
+            email: lastCheckResult.email,
+            guests: lastCheckResult.guests
+          });
+          saveBookings();
+
+          paymentStatus.innerHTML = `
+            <div class="mt-2 rounded-xl bg-emerald-500/15 border border-emerald-400/50 px-3 py-2 text-[0.7rem] text-emerald-200">
+              Pembayaran berjaya (simulasi)! Tempahan anda untuk <span class="font-semibold">CIKMAN HOMESTAY</span> pada
+              <span class="font-semibold">${lastCheckResult.checkIn}</span> hingga
+              <span class="font-semibold">${lastCheckResult.checkOut}</span> telah disahkan.
+              Anda akan dihubungi oleh pemilik untuk maklumat lanjut.
+            </div>
+          `;
+          payBtn.textContent = 'Bayar Sekarang (Demo)';
+          resetFormAndSummary();
+        }, 1500);
+      });
+
+      // Galeri modal
+      const modal = document.getElementById('imageModal');
+      const modalImage = document.getElementById('modalImage');
+      const closeModalBtn = document.getElementById('closeModalBtn');
+
+      document.querySelectorAll('#galeri button[data-large-src]').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const src = btn.getAttribute('data-large-src');
+          modalImage.src = src;
+          modal.classList.remove('hidden');
+        });
+      });
+
+      closeModalBtn.addEventListener('click', () => {
+        modal.classList.add('hidden');
+        modalImage.src = '';
+      });
+
+      modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+          modal.classList.add('hidden');
+          modalImage.src = '';
+        }
+      });
+    });
+  </script>
+</body>
+</html>
